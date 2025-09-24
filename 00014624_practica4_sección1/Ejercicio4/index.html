@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejercicio Final – Guía 4</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ejercicio Final – Guía 4</h1>
+      <p class="small">Función que recuerda la actividad según el día de la semana.</p>
+    </header>
+
+    <div class="card">
+      <div class="form-row">
+        <input id="diaInput" type="text" placeholder="Escribe el día (ej: Lunes)" aria-label="día de la semana" />
+        <button id="checkBtn" title="Recordar">Recordar</button>
+      </div>
+
+      <div id="output" class="result" aria-live="polite">Aquí aparecerá el recordatorio.</div>
+      <div class="small">Formato aceptado: Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo (no importa mayúsculas o tildes).</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
